@@ -1,0 +1,39 @@
+@import "../../styles/config";
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  margin-bottom: 3px;
+  border: none;
+  border-radius: 5px;
+  color: $black;
+  background-color: $static;
+  transition: background-color 0.2s linear;
+  cursor: pointer;
+
+  @media screen and (max-width: $sm) {
+    height: 36px;
+    padding: 0 12px;
+  }
+
+  &:hover:not(:disabled) {
+    background-color: $selected;
+  }
+
+  &:active:not(:disabled) {
+    background-color: $selected;
+    opacity: 0.7;
+  }
+
+  &:disabled {
+    opacity: 0.5;
+  }
+
+  &_contained {
+    border: none;
+    background-color: $guessed;
+    color: $black;
+  }
+}

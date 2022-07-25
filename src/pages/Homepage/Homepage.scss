@@ -1,0 +1,14 @@
+@import "../../styles/config";
+
+.homepage__controls {
+  margin-top: 40px;
+}
+
+.homepage__button {
+  min-width: 250px;
+  font-size: 17px;
+
+  @media screen and (max-width: $sm) {
+    min-width: 100px;
+  }
+}

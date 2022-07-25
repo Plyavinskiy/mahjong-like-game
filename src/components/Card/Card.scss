@@ -1,0 +1,24 @@
+@import "../../styles/config";
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: $card-size;
+  height: $card-size;
+  border-radius: 8px;
+  box-shadow: 0 0 10px $static;
+  cursor: pointer;
+
+  &_active {
+    box-shadow: 0 0 15px $selected;
+  }
+
+  &_guessed {
+    box-shadow: 0 0 15px $guessed;
+  }
+
+  &__content {
+    font-size: 1.5rem;
+  }
+}

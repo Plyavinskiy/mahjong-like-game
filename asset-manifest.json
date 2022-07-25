@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mahjong-like-game/static/css/main.ece50751.css",
+    "main.js": "/mahjong-like-game/static/js/main.429078b8.js",
+    "index.html": "/mahjong-like-game/index.html",
+    "main.ece50751.css.map": "/mahjong-like-game/static/css/main.ece50751.css.map",
+    "main.429078b8.js.map": "/mahjong-like-game/static/js/main.429078b8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ece50751.css",
+    "static/js/main.429078b8.js"
+  ]
+}

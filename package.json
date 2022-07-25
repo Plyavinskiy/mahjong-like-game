@@ -2,6 +2,7 @@
   "name": "mahjong-like-game",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://plyavinskiy.github.io/mahjong-like-game/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.3",
     "@types/react": "^18.0.15",
@@ -22,7 +23,9 @@
     "eject": "react-scripts eject",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -56,6 +59,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.30.1",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "gh-pages": "^4.0.0",
     "husky": "^8.0.0",
     "prettier": "^2.7.1"
   }
